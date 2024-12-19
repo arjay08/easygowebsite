@@ -1,0 +1,34 @@
+#footer {
+    height: 20vh;
+}
+
+#footer i {
+    color: orangered;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#footer a {
+    color: orangered;
+    text-decoration: none;
+}
+#footer a:hover{
+    color: black;
+    transition: 0.5s;
+}
+
+#footer h4 {
+    font-weight: 600;
+}
+.ftdetails {
+    background-color: orangered;
+}
+
+#footer a i{
+    color: orangered;
+    transition: 0.5s;
+}
+
+#footer a i:hover{
+    color: black;
+}

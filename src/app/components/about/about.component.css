@@ -1,0 +1,13 @@
+#about {
+    height: 80vh;
+ 
+}
+.container h4 {
+    color: orangered;
+}
+.container h2 {
+   font-weight: 600;
+}
+.container p {
+   font-size: 15px;
+}

@@ -1,0 +1,32 @@
+#contact {
+    height: 90vh;
+    background: orangered;
+}
+.row h2{
+    color: #fff;
+    font-weight: 500;
+    font-size: 45px;
+}
+.row h4{
+    color: #fff;
+
+}
+
+.form-group input  {
+    padding: 10px;
+    background-color: #F0B4A4;
+    border: none;
+    opacity: 70%;
+}
+
+.form-group textarea {
+    padding: 10px;
+    background-color: #F0B4A4;
+    border: none;
+    opacity: 70%;
+    
+}
+
+.formcontact{
+    border: 000;
+}
