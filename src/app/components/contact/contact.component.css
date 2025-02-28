@@ -1,13 +1,12 @@
-#contact {
-    height: 90vh;
-    background: orangered;
+#cons {
+    padding: 10%;
 }
 .row h2{
     color: #fff;
     font-weight: 500;
     font-size: 45px;
 }
-.row h4{
+.row h5{
     color: #fff;
 
 }
@@ -29,4 +28,41 @@
 
 .formcontact{
     border: 000;
+}
+*/
+
+body {
+    background: #fafbfb;
+  }
+  
+
+  
+@media (max-width: 820px) {
+
+    .row h2 {
+        font-size: 35px;
+        text-align: center;
+    }
+    .row i {
+        font-size: 18px;
+      
+    }
+    .row h5 {
+        font-size: 15px;
+    }
+    .row iframe {
+        width: 400px;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: -20px;
+    }
+    .row h1 {
+        font-size: 35px;
+        text-align: center;
+        color: white;
+    }
+    .row label {
+       color: white;
+    }
+
 }

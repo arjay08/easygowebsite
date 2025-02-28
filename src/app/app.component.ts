@@ -7,11 +7,12 @@ import { ContactComponent } from "./components/contact/contact.component";
 import { ActivatedRoute, Router, NavigationEnd } from '@angular/router';
 import { filter } from 'rxjs/operators';
 import { FooterComponent } from "./components/footer/footer.component";
+import { NavbarComponent } from "./components/navbar/navbar.component";
 
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HomeComponent, RouterLink, RouterLinkActive, AboutComponent, AservicesComponent, ContactComponent, FooterComponent],
+  imports: [ HomeComponent, RouterLink, RouterLinkActive, AboutComponent, AservicesComponent, ContactComponent, FooterComponent, NavbarComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

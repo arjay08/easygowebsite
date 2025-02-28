@@ -12,4 +12,8 @@ import { RouterLink } from '@angular/router';
 })
 export class HomeComponent {
 
+
+  openModal(){
+    const modal = document.getElementById("exampleModal");
+  }
 }

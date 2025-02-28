@@ -32,3 +32,11 @@
 #footer a i:hover{
     color: black;
 }
+
+@media (max-width: 820px) {
+
+    #ftdetails h6 {
+       font-size: 15px;
+    }
+
+}
